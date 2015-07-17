@@ -1,0 +1,30 @@
+{
+  "name": "ld-r-components",
+  "version": "1.0.75",
+  "description": "A set of useful components for Linked Data Reactor (http://ld-r.org)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ali1k/ld-r-components.git"
+  },
+  "keywords": [
+    "ReactJS",
+    "LinkedData",
+    "RDF",
+    "FLUX"
+  ],
+  "author": "Ali Khalili <hyperir@gmail.com> (http://ali1k.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ali1k/ld-r-components/issues"
+  },
+  "homepage": "https://github.com/ali1k/ld-r-components#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel": "^5.6.23",
+    "react": "^0.13.3"
+  }
+}
