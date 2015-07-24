@@ -10,10 +10,5 @@ module.exports = {
     TwoLetterCountryView: require('./lib/TwoLetterCountryView'),
     FileSizeView: require('./lib/FileSizeView'),
     FileSizeInput: require('./lib/FileSizeInput'),
-    MediaTypeInput: require('./lib/MediaTypeInput'),
-    BasicDBpediaView: require('./lib/BasicDBpediaView'),
-    DBpediaInput: require('./lib/DBpediaInput'),
-    DBpediaStore: require('./lib/stores/DBpediaStore'),
-    DBpediaGoogleMapView: require('./lib/DBpediaGoogleMapView'),
-    DBpediaGMapStore: require('./lib/stores/DBpediaGMapStore')
+    MediaTypeInput: require('./lib/MediaTypeInput')
 };

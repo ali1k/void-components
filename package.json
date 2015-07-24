@@ -1,6 +1,6 @@
 {
   "name": "void-components",
-  "version": "1.0.67",
+  "version": "1.0.68",
   "description": "A set of useful LD-R components for void descriptions",
   "main": "index.js",
   "scripts": {
