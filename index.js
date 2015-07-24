@@ -14,7 +14,6 @@ module.exports = {
     BasicDBpediaView: require('./lib/BasicDBpediaView'),
     DBpediaInput: require('./lib/DBpediaInput'),
     DBpediaStore: require('./lib/stores/DBpediaStore'),
-    DBpediaService: require('./lib/services/dbpedia'),
     DBpediaGoogleMapView: require('./lib/DBpediaGoogleMapView'),
     DBpediaGMapStore: require('./lib/stores/DBpediaGMapStore')
 };
