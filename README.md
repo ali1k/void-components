@@ -11,7 +11,3 @@ https://github.com/ali1k/ld-reactor
     - renders the two letter country codes based on ISO3166_1_alpha2
 - MediaTypeInput
     - a set of limited mimetype inputs
-- BasicDBpediaView & DBpediaInput
-    - lookup Dbpedia and insert/view DBpedia URIs
-- DBpediaGoogleMapView
-    - an aggregate view which shows DBpedia geo-resources on the map
