@@ -1,6 +1,6 @@
 {
   "name": "void-components",
-  "version": "1.0.68",
+  "version": "1.0.7",
   "description": "A set of useful LD-R components for void descriptions",
   "main": "index.js",
   "scripts": {
@@ -23,13 +23,12 @@
   },
   "homepage": "https://github.com/ali1k/void-components#readme",
   "dependencies": {
-
+    "ld-r-components": "^1.0.10"
   },
   "devDependencies": {
     "babel": "^5.6.23",
     "fluxible": "^0.5.1",
     "fluxible-addons-react": "^0.1.6",
-    "ld-r-components": "^1.0.10",
     "react": "^0.13.3"
   }
 }
