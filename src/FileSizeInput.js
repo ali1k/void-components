@@ -1,4 +1,6 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
+
 class FileSizeInput extends React.Component {
     constructor(props) {
         super(props);
@@ -12,7 +14,7 @@ class FileSizeInput extends React.Component {
     }
     componentDidMount() {
         if(!this.props.noFocus){
-            React.findDOMNode(this.refs.fileSizelInput).focus();
+            ReactDOM.findDOMNode(this.refs.fileSizelInput).focus();
         }
     }
     handleKeyDown(evt) {

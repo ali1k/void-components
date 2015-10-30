@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import {list} from '../data/languages';
 
 class LanguageInput extends React.Component {
@@ -14,7 +15,7 @@ class LanguageInput extends React.Component {
     }
     componentDidMount() {
         if(!this.props.noFocus){
-            React.findDOMNode(this.refs.languageInputSelect).focus();
+            ReactDOM.findDOMNode(this.refs.languageInputSelect).focus();
         }
     }
 

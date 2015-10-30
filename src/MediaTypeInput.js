@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import {list} from '../data/mimeTypes';
 import {BasicIndividualInput} from 'ld-r-components';
 
@@ -15,7 +16,7 @@ class MediaTypeInput extends React.Component {
     }
     componentDidMount() {
         if(!this.props.noFocus){
-            React.findDOMNode(this.refs.mediaTypeInputSelect).focus();
+            ReactDOM.findDOMNode(this.refs.mediaTypeInputSelect).focus();
         }
     }
 
