@@ -1,6 +1,6 @@
 {
   "name": "void-components",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A set of useful LD-R components for void descriptions",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,8 @@
     "ld-r-components": "^1.0.10"
   },
   "devDependencies": {
-    "babel": "^5.8.21",
+    "babel": "^6.0.15",
+    "babel-core": "^6.1.4",
     "fluxible": "^1.0.1",
     "fluxible-addons-react": "^0.2.0",
     "react": "^0.14.1",
